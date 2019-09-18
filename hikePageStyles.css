@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: helvetica;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+    font-family: cursive;
+}
+
+h3 {
+    font-style: bold;
+}
+
+p {
+    margin-left: 5px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+section {
+    display: flex;
+}
+
+aside {
+    flex: 2;
+}
+
+article {
+    flex: 3;
+}
+
+img {
+    width: 100%;
+    border: 1px solid black;
+    padding: 1px;
+}
