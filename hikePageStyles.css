@@ -12,16 +12,10 @@ h2 {
     font-family: cursive;
 }
 
-h3 {
-    font-style: bold;
-}
-
 p {
-    margin-left: 5px;
-}
-
-body {
-    background-color: lightblue;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 section {
