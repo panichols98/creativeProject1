@@ -1,0 +1,89 @@
+body, html {
+    height: 100%;
+}
+.jumbotron{
+    /* Set a specific height */
+    height:70%;
+    width:100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+#jum1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.freeimages.com/images/large-previews/ead/journey-1525428.jpg");
+
+}
+#jum_about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2018/12/30/13/02/bouleste-3903180_1280.jpg");
+
+}
+
+.titles{
+    text-align: center;
+    font-size:25px;
+    padding: 15px;
+}
+
+.footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+} 
+
+#jum2{
+    background:white;
+}
+
+#jum3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.freeimages.com/images/small-previews/122/landscape-1314405.jpg");
+
+    
+}
+
+#con1{
+    color:white;
+}
+#con2{
+    color:black;
+}
+.container{
+  text-align: center;
+  position: absolute;
+  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+#map{
+    width:80%;
+}
+
+.smaller{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:20px;
+}
+.titles2{
+    text-align: center;
+    font-size:18px;
+    padding: 15px;
+    word-wrap: break-word;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}

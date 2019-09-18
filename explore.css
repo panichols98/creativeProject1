@@ -1,0 +1,16 @@
+html,body{
+    height: 100%
+}
+
+.titles{
+    text-align: center;
+    font-size:25px;
+    padding: 15px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
